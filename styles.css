@@ -1,0 +1,29 @@
+/* styles.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;  /* stack elements vertically */
+  justify-content: center; /* center vertically */
+  align-items: center;     /* center horizontally */
+  font-family: Arial, sans-serif;
+  gap: 15px;               /* spacing between elements */
+}
+
+#forecast {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 120px;
+}
